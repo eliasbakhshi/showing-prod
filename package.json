@@ -1,0 +1,38 @@
+{
+  "name": "Techship",
+  "version": "1.0.0",
+  "description": "Testing",
+  "main": "public/js/main.js",
+  "scripts": {
+    "build": "NODE_ENV=production webpack --mode production --progress",
+    "watch": "NODE_ENV=development webpack --watch --mode development --progress",
+    "dev": "NODE_ENV=development webpack --mode development --progress",
+    "clean": "rm -rf public/*"
+  },
+  "keywords": [
+    "Techship",
+    "Testing"
+  ],
+  "author": "Techship",
+  "license": "ISC",
+  "private": true,
+  "devDependencies": {
+    "autoprefixer": "^10.4.5",
+    "babel-loader": "^8.2.5",
+    "css-loader": "^6.7.1",
+    "mini-css-extract-plugin": "^2.6.0",
+    "postcss": "^8.4.12",
+    "postcss-loader": "^6.2.1",
+    "postcss-preset-env": "^7.4.3",
+    "postcss-scss": "^4.0.4",
+    "sass": "^1.51.0",
+    "sass-loader": "^12.6.0",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2"
+  },
+  "dependencies": {
+    "@babel/core": "^7.17.9",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7"
+  }
+}
